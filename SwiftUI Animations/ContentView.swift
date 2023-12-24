@@ -15,12 +15,17 @@ struct ContentView: View {
             Spacer()
             VStack {
                 SnowView()
-                GiftView()
                 TbcAcademyView()
                 SwiftUIXmasTree2()
-                
             }
             .offset(y: -200)
+            
+            Spacer()
+            
+            VStack {
+                GiftView()
+            }
+
         }    
     }
 }
